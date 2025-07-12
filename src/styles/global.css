@@ -2,8 +2,9 @@
 
 :root {
   --blue-dark: #101A2E;
-  --green-primary: #0CA88E 
-  --white-primary: #f2f2f2
+  --blue-darken: #0D1626;
+  --green-primary: #0CA88E ;
+  --white-primary: #f2f2f2;
 }
 
 h1, h2, p, button, footer, a{
@@ -16,5 +17,9 @@ h1, h2, p, button, footer, a{
 }
 
 body {
-  background-color: var(--blue-dark)
+  background-color: var(--blue-darken)
+}
+
+.textt-primary {
+  color: var(--green-primary)  !important;
 }
