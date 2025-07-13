@@ -10,9 +10,8 @@
   z-index: 1;
 }
 
-.navbar__links {
-  display: flex;
-  gap: 40px;
+.navbar__links a{
+  margin: 0 24px;
 }
 
 @media (max-width: 640px){
@@ -25,13 +24,8 @@
     height: 100px;
   }
 
-  .navbar__links {
-    gap: 16px;
-  }
-
-
   .navbar a {
-    font-size: small;
+    font-size: smaller;
   }
 }
 
@@ -42,7 +36,7 @@
   }
 }
 
-@media (max-width: 1380px) {
+@media (min-width: 1200) and (max-width: 1380px) {
   .navbar a {
     font-size: medium;
   }
